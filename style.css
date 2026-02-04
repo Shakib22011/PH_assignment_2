@@ -160,3 +160,59 @@ body {
 .about-review .review p{
   opacity:80%;
 }
+
+/* techwave */
+.techwave{
+  padding:120px 200px;
+  background-color:#230E3D;
+}
+.techwave h2{
+  text-align:center;
+  font-size:48px;
+  font-weight:700;
+  margin-bottom:40px;
+}
+.techwave .grid{
+  display:grid;
+  gap:30px;
+  
+  grid-template-areas:
+  "audio mobile mobile"
+  "audio global global"
+  "interview interview resource"
+}
+.grid #audio{
+  grid-area:audio;
+  padding-top:107px;
+}
+.grid #mobile{
+  grid-area:mobile;
+}
+.grid #resource{
+  grid-area:resource;
+}
+.grid #global{
+  grid-area:global;
+}
+.grid #interview{
+  grid-area:interview;
+}
+
+.grid-card{
+  background:#351165;
+  padding:40px;
+  border-radius:40px;
+}
+.grid-card img{
+  margin-bottom:16px;
+}
+.grid-card h3{
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:16px;
+}
+.grid-card p{
+  opacity:60%;
+  line-height:24px;
+}
+
