@@ -216,3 +216,40 @@ body {
   line-height:24px;
 }
 
+/* feature section */
+.feature-section{
+  padding-top:120px;
+  padding-bottom:120px;
+}
+.feature-section h2{
+  font-size:48px;
+  font-weight:700;
+  margin-bottom:40px;
+  text-align:center;
+}
+.feature-card-section{
+  gap:30px;
+}
+.feature-card{
+  background-color:#230E3D;
+  border-radius:20px;
+  overflow:hidden;
+}
+.feature-card h3{
+  font-size:24px;
+  font-weight:700;
+  margin-bottom:12px;
+}
+.feature-card p{
+  line-height:24px;
+  opacity:60%;
+  margin-bottom:12px;
+}
+.feature-card side{
+  color:#00FF88;
+  gap:6px;
+  align-items:center;
+}
+.feature-card .contents{
+  padding:24px;
+}
