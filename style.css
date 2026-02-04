@@ -23,6 +23,10 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
+.max-size-content{
+  max-width:1200px;
+  margin:0 auto;
+}
 .linear-gradient-text {
   background: linear-gradient(30deg, #f7e93f 0%, #fb09b4 50%, #9100f8 80%);
   -webkit-background-clip: text;
@@ -68,7 +72,6 @@ body {
 .banner .image {
   text-align: center;
   position: relative;
-  margin-bottom: 40px;
   padding: 100px 0px;
   .new {
     font-size: 18px;
@@ -85,6 +88,7 @@ body {
 }
 .banner .image .image-position {
   position: relative;
+   margin-bottom: 40px;
 }
 .banner .image .image-position .mic {
   position: absolute;
@@ -117,4 +121,42 @@ body {
   color: #00ff88;
   border: 1px solid #00ff88;
   background-color: transparent;
+}
+
+/* about section */
+.about-section{
+  padding-top:50px;
+  padding-bottom:120px;
+}
+.about-contents{
+  text-align:center;
+}
+.about-contents h2{
+  font-size:48px;
+  font-weight:700;
+  margin-bottom:16px;
+}
+.about-contents p{
+  opacity:80%;
+  line-height:20px;
+  margin-bottom:80px;
+}
+.about-contents hr{
+  opacity:10%;
+}
+.about-review{
+  margin-top:80px;
+  justify-content:space-around;
+}
+.about-review .review{
+  text-align:center;
+}
+.about-review .review h2{
+  font-size:48px;
+  font-weight:900;
+  margin-bottom:16px;
+  color:#00FF88;
+}
+.about-review .review p{
+  opacity:80%;
 }
