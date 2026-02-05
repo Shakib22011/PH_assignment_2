@@ -31,7 +31,6 @@
 /*banner */
 .circle{
   max-width:12.5rem;
-  /* max-height:200px; */
 }
 .mic{
   max-width:4rem;
@@ -133,8 +132,8 @@ footer{
  }
  footer .social{
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2টা করে এক row */
-  gap: 18px 40px; /* row-gap | column-gap */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px 40px; 
   justify-content: center;
 }
 
