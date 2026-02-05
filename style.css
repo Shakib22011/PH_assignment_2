@@ -36,6 +36,13 @@ body {
 .linear-gradient {
   background: linear-gradient(30deg, #f7e93f 0%, #fb09b4 50%, #9100f8 80%);
 }
+.hover-effect{
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+.hover-effect:hover{
+   transform: scale(1.2);
+}
 
 /* navbar section */
 .navbar {
@@ -81,25 +88,62 @@ body {
 }
 .banner .image {
   text-align: center;
-  position: relative;
-  padding: 100px 0px;
-  .new {
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-    background-color: #00ff88;
-    border-radius: 20px;
-    border: none;
-    padding: 8px 16px;
-    position: absolute;
-    top: 113px;
-    left: 877px;
-  }
+  padding: 6.25rem 0px;
 }
 .banner .image .image-position {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
+  display:inline-block;
+  .new {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: black;
+    background-color: #00ff88;
+    border-radius: 1.25rem;
+    border: none;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 0.625rem;
+    right: 10%; 
+  }
 }
+.image-position .circle .new{
+  
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: black;
+    background-color: #00ff88;
+    border-radius: 1.25rem;
+    border: none;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 0.625rem;
+    right:0px; 
+
+}
+.circle{
+  animation: upDownEqual 4s ease-in-out infinite;
+}
+
+@keyframes upDownEqual{
+  0%{
+    transform: translateY(0);        /* main position */
+  }
+  25%{
+    transform: translateY(-20px);    /* same amount up */
+  }
+  50%{
+    transform: translateY(0);        /* back to center */
+  }
+  75%{
+    transform: translateY(20px);     /* same amount down */
+  }
+  100%{
+    transform: translateY(0);        /* back to center */
+  }
+}
+
+
 .banner .image .image-position .mic {
   position: absolute;
   top: 50%;
@@ -108,23 +152,23 @@ body {
   z-index: 1;
 }
 .banner .image h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 900;
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 .banner .image p {
   opacity: 80%;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .banner-button .btn {
   font-weight: 600;
   color: white;
-  padding: 12px 20px;
-  border-radius: 30px;
+  padding: .75rem 1.25rem;
+  border-radius: 1.875rem;
   border: none;
   align-items: center;
   span {
-    margin-left: 8px;
+    margin-left: .5rem;
   }
 }
 .banner-button .btn2 {

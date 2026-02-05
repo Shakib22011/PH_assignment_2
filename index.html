@@ -19,34 +19,33 @@
   </head>
 
   <body class="roboto">
-
     <header>
       <div class="navbar display-flex max-size background">
         <h1>Tech<span class="linear-gradient-text">Wave</span></h1>
-         <!-- for hamburger mobile screen -->
-          <input type="checkbox" id="menu-toggle" />
-          <label for="menu-toggle" class="hamburger">
-            <i class="fa-solid fa-bars"></i>
-          </label>
-          
+        <!-- for hamburger mobile screen -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
         <ul class="display-flex">
           <li>About</li>
           <li>Episodes</li>
           <li>Host</li>
         </ul>
-        <button class="linear-gradient">
+        <button class="linear-gradient hover-effect">
           Subscribe<span><i class="fa-solid fa-arrow-right"></i></span>
         </button>
-       
       </div>
 
       <div class="banner background max-size">
         <div class="image">
           <div class="image-position">
-            <img class="circle" src="assets/hero-circle.png" />
+            <img class="circle" src="assets/hero-circle.png" /><button class="new">New</button></img>
             <img class="mic" src="assets/microphone.png" />
+            
           </div>
-          <button class="new">New</button>
+          
           <h2>TechWave</h2>
           <p>
             Your daily dose of tech insights, productivity hacks, and personal
@@ -56,10 +55,10 @@
             class="banner-button display-flex"
             style="justify-content: center; gap: 8px"
           >
-            <button class="btn linear-gradient display-flex">
+            <button class="btn linear-gradient display-flex hover-effect">
               <img src="assets/spotify.png" /> <span>Listen on Spotify</span>
             </button>
-            <button class="btn btn2 display-flex">
+            <button class="btn btn2 display-flex hover-effect">
               <img src="assets/message.png" /><span>Subscribe</span>
             </button>
           </div>
@@ -154,11 +153,11 @@
       <div class="feature-section max-size background">
         <h2>Featured Episodes</h2>
         <div class="feature-card-section display-flex max-size-content">
-          <div class="feature-card">
+          <div class="feature-card hover-effect">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/2f5NHArhhQ0?si=_95FHxMWnCB7g-53"
+              src="https://www.youtube.com/embed/LnrPppASOlE?si=cXQ6fgVDwteQzbtr"
               title="YouTube video player"
               frameborder="0"
               allow="
@@ -184,11 +183,11 @@
               >
             </div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card hover-effect">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/NgoJjIFULDE?si=orXB-TG2qJdOeSf0"
+              src="https://www.youtube.com/embed/oWDULCF6dVg?si=TmO03S0TC-On-_Kl"
               title="YouTube video player"
               frameborder="0"
               allow="
@@ -214,11 +213,11 @@
               >
             </div>
           </div>
-          <div class="feature-card">
+          <div class="feature-card hover-effect">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/IZ_W8NufP1Y?si=7lPiX2aVLm3LSZUW"
+              src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=vjFs61kFRrehwFF5"
               title="YouTube video player"
               frameborder="0"
               allow="
@@ -274,13 +273,24 @@
     <footer class="max-size display-flex">
       <h1>Tech<span class="linear-gradient-text">Wave</span></h1>
       <div class="social display-flex">
-        <div><img src="assets/spotify.png" /><p>Spotify</p></div>
-        <div><img src="assets/apple-podcast.png" /><p>Apple Podcast</p></div>
-        <div><img src="assets/youtube-podcast.png" /><p>Youtube</p></div>
-        <div><img src="assets/twitter.png" /><p>Twitter</p></div>
+        <div>
+          <img src="assets/spotify.png" />
+          <p>Spotify</p>
+        </div>
+        <div>
+          <img src="assets/apple-podcast.png" />
+          <p>Apple Podcast</p>
+        </div>
+        <div>
+          <img src="assets/youtube-podcast.png" />
+          <p>Youtube</p>
+        </div>
+        <div>
+          <img src="assets/twitter.png" />
+          <p>Twitter</p>
+        </div>
       </div>
       <p>&copy TechWave Podcast. All rights reserved.</p>
     </footer>
-    
   </body>
 </html>
