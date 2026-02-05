@@ -1,0 +1,29 @@
+@media screen and  (max-width:576px){
+  .navbar ul{
+    position:absolute;
+    top:80px;
+    right:20px;
+    background:#120823;
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+    border-radius:12px;
+    display:none;
+  }
+  .hamburger{
+    display:block;
+    font-size:1.5rem;
+  }
+  .navbar button{
+    display:none;
+  }
+  #menu-toggle:checked ~ ul{
+    display:flex;
+  }
+  
+/* navbar resize */
+.navbar {
+    padding: 20px 20px;
+}
+
+}
